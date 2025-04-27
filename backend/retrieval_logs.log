@@ -1,0 +1,209 @@
+    2025-03-24 18:50:28,211 - INFO - 127.0.0.1 - - [24/Mar/2025 18:50:28] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 18:50:31,093 - INFO - 127.0.0.1 - - [24/Mar/2025 18:50:31] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 18:50:32,263 - INFO - 127.0.0.1 - - [24/Mar/2025 18:50:32] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 18:50:34,876 - INFO - 127.0.0.1 - - [24/Mar/2025 18:50:34] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 18:58:54,019 - INFO - 127.0.0.1 - - [24/Mar/2025 18:58:54] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 18:58:56,576 - INFO - 127.0.0.1 - - [24/Mar/2025 18:58:56] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 18:58:58,019 - INFO - 127.0.0.1 - - [24/Mar/2025 18:58:58] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 19:04:11,865 - INFO - \U0001f680 Starting Flask Server...
+2025-03-24 19:04:11,925 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.51.125:5000
+2025-03-24 19:04:11,926 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 19:04:11,929 - INFO -  * Restarting with stat
+2025-03-24 19:04:18,302 - INFO - \U0001f680 Starting Flask Server...
+2025-03-24 19:04:18,324 - WARNING -  * Debugger is active!
+2025-03-24 19:04:18,328 - INFO -  * Debugger PIN: 135-991-133
+2025-03-24 19:04:35,041 - INFO - 127.0.0.1 - - [24/Mar/2025 19:04:35] "[33mGET /test_blockchain HTTP/1.1[0m" 404 -
+2025-03-24 19:10:49,599 - INFO -  * Detected change in 'P:\\blockchain-id-authentication\\PII-Authenticator\\backend\\app.py', reloading
+2025-03-24 19:10:50,114 - INFO -  * Restarting with stat
+2025-03-24 19:10:57,757 - INFO - \U0001f680 Starting Flask Server...
+2025-03-24 19:10:57,780 - WARNING -  * Debugger is active!
+2025-03-24 19:10:57,783 - INFO -  * Debugger PIN: 135-991-133
+2025-03-24 19:10:57,814 - INFO - 127.0.0.1 - - [24/Mar/2025 19:10:57] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 19:10:59,896 - INFO - 127.0.0.1 - - [24/Mar/2025 19:10:59] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 19:11:06,071 - INFO - 127.0.0.1 - - [24/Mar/2025 19:11:06] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 19:11:08,518 - INFO - 127.0.0.1 - - [24/Mar/2025 19:11:08] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 19:11:08,730 - INFO - 127.0.0.1 - - [24/Mar/2025 19:11:08] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 19:11:10,877 - INFO - 127.0.0.1 - - [24/Mar/2025 19:11:10] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 19:29:43,473 - INFO -  * Detected change in 'P:\\blockchain-id-authentication\\PII-Authenticator\\backend\\app.py', reloading
+2025-03-24 19:29:44,644 - INFO -  * Restarting with stat
+2025-03-24 19:29:48,809 - INFO - \U0001f680 Starting Flask Server...
+2025-03-24 19:29:48,821 - WARNING -  * Debugger is active!
+2025-03-24 19:29:48,823 - INFO -  * Debugger PIN: 135-991-133
+2025-03-24 19:29:48,832 - INFO - 127.0.0.1 - - [24/Mar/2025 19:29:48] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 19:29:50,072 - ERROR - \u274c File retrieval failed: An error occurred (NoSuchBucket) when calling the GetObject operation: The specified bucket does not exist
+2025-03-24 19:29:50,072 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 19:29:50,649 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 19:29:50,650 - INFO - 127.0.0.1 - - [24/Mar/2025 19:29:50] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 19:29:52,057 - ERROR - \u274c File retrieval failed: An error occurred (NoSuchBucket) when calling the GetObject operation: The specified bucket does not exist
+2025-03-24 19:29:52,057 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 19:29:52,648 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 19:29:52,651 - INFO - 127.0.0.1 - - [24/Mar/2025 19:29:52] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 19:29:53,724 - INFO - 127.0.0.1 - - [24/Mar/2025 19:29:53] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 19:29:54,109 - ERROR - \u274c File retrieval failed: An error occurred (NoSuchBucket) when calling the GetObject operation: The specified bucket does not exist
+2025-03-24 19:29:54,109 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 19:29:54,665 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 19:29:54,666 - INFO - 127.0.0.1 - - [24/Mar/2025 19:29:54] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 19:43:49,828 - INFO - 127.0.0.1 - - [24/Mar/2025 19:43:49] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 19:43:51,291 - ERROR - \u274c File retrieval failed: An error occurred (NoSuchBucket) when calling the GetObject operation: The specified bucket does not exist
+2025-03-24 19:43:51,292 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 19:43:51,849 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 19:43:51,849 - INFO - 127.0.0.1 - - [24/Mar/2025 19:43:51] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 19:46:37,178 - INFO - 127.0.0.1 - - [24/Mar/2025 19:46:37] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 19:46:38,220 - ERROR - \u274c File retrieval failed: An error occurred (NoSuchBucket) when calling the GetObject operation: The specified bucket does not exist
+2025-03-24 19:46:38,221 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 19:46:38,639 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 19:46:38,640 - INFO - 127.0.0.1 - - [24/Mar/2025 19:46:38] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 19:47:36,870 - INFO - 127.0.0.1 - - [24/Mar/2025 19:47:36] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 19:47:37,679 - ERROR - \u274c File retrieval failed: An error occurred (NoSuchBucket) when calling the GetObject operation: The specified bucket does not exist
+2025-03-24 19:47:37,680 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 19:47:38,220 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 19:47:38,221 - INFO - 127.0.0.1 - - [24/Mar/2025 19:47:38] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 19:47:42,116 - ERROR - \u274c File retrieval failed: An error occurred (NoSuchBucket) when calling the GetObject operation: The specified bucket does not exist
+2025-03-24 19:47:42,116 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 19:47:42,507 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 19:47:42,508 - INFO - 127.0.0.1 - - [24/Mar/2025 19:47:42] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 19:56:12,084 - INFO - 127.0.0.1 - - [24/Mar/2025 19:56:12] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 19:56:13,532 - ERROR - \u274c File retrieval failed: An error occurred (NoSuchBucket) when calling the GetObject operation: The specified bucket does not exist
+2025-03-24 19:56:13,533 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 19:56:14,085 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 19:56:14,086 - INFO - 127.0.0.1 - - [24/Mar/2025 19:56:14] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:10:00,999 - INFO - \U0001f680 Starting Flask Server...
+2025-03-24 23:10:01,031 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.51.125:5000
+2025-03-24 23:10:01,031 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 23:10:01,032 - INFO -  * Restarting with stat
+2025-03-24 23:10:04,834 - INFO - \U0001f680 Starting Flask Server...
+2025-03-24 23:10:04,841 - WARNING -  * Debugger is active!
+2025-03-24 23:10:04,844 - INFO -  * Debugger PIN: 135-991-133
+2025-03-24 23:10:27,398 - INFO - 127.0.0.1 - - [24/Mar/2025 23:10:27] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 23:10:28,766 - ERROR - \u274c File retrieval failed: An error occurred (NoSuchBucket) when calling the GetObject operation: The specified bucket does not exist
+2025-03-24 23:10:28,767 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:10:29,338 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:10:29,338 - INFO - 127.0.0.1 - - [24/Mar/2025 23:10:29] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:10:29,642 - INFO - 127.0.0.1 - - [24/Mar/2025 23:10:29] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 23:10:30,201 - ERROR - \u274c File retrieval failed: An error occurred (NoSuchBucket) when calling the GetObject operation: The specified bucket does not exist
+2025-03-24 23:10:30,201 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:10:30,786 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:10:30,786 - INFO - 127.0.0.1 - - [24/Mar/2025 23:10:30] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:12:56,967 - INFO - \U0001f680 Starting Flask Server...
+2025-03-24 23:12:56,981 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.51.125:5000
+2025-03-24 23:12:56,981 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 23:12:56,983 - INFO -  * Restarting with stat
+2025-03-24 23:13:00,825 - INFO - \U0001f680 Starting Flask Server...
+2025-03-24 23:13:00,833 - WARNING -  * Debugger is active!
+2025-03-24 23:13:00,834 - INFO -  * Debugger PIN: 135-991-133
+2025-03-24 23:13:04,179 - INFO - 127.0.0.1 - - [24/Mar/2025 23:13:04] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 23:13:04,429 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:13:04,429 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:13:05,404 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:13:05,405 - INFO - 127.0.0.1 - - [24/Mar/2025 23:13:05] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:13:09,217 - INFO - 127.0.0.1 - - [24/Mar/2025 23:13:09] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 23:13:09,220 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:13:09,220 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:13:10,014 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:13:10,015 - INFO - 127.0.0.1 - - [24/Mar/2025 23:13:10] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:14:14,369 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:14] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 23:14:14,635 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:14,635 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:14,897 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:14,897 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:15,176 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:14:15,177 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:15] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:14:15,646 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:15,646 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:15,918 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:14:15,918 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:15] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:14:16,200 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:14:16,201 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:16] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:14:16,241 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:16,241 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:16,508 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:16,508 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:16,718 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:16,718 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:16,800 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:14:16,801 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:16] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:14:17,063 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:14:17,063 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:17] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:14:17,426 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:17,426 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:17,621 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:14:17,622 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:17] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:14:17,692 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:17,693 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:17,930 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:17,931 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:17,982 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:14:17,982 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:17] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:14:18,253 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:14:18,254 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:18] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:14:18,476 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:14:18,477 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:18] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:14:18,632 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:18,632 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:18,892 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:18,892 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:19,147 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:19,147 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:19,185 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:14:19,185 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:19] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:14:19,462 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:14:19,462 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:19] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:14:19,729 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:14:19,729 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:19] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:14:19,843 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:19] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 23:14:20,139 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:20,139 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:20,354 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:20,354 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:20,706 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:14:20,706 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:20] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:14:20,770 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:20,770 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:20,786 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:14:20,786 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:20] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:14:21,331 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:14:21,332 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:21] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:14:26,204 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:26] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 23:14:26,474 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:26,474 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:27,037 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:14:27,038 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:27] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:14:28,749 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:28] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 23:14:28,751 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:28,751 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:14:29,160 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:14:29,161 - INFO - 127.0.0.1 - - [24/Mar/2025 23:14:29] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:15:09,602 - INFO - \U0001f680 Starting Flask Server...
+2025-03-24 23:15:09,618 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.51.125:5000
+2025-03-24 23:15:09,618 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 23:15:09,619 - INFO -  * Restarting with stat
+2025-03-24 23:15:13,289 - INFO - \U0001f680 Starting Flask Server...
+2025-03-24 23:15:13,298 - WARNING -  * Debugger is active!
+2025-03-24 23:15:13,300 - INFO -  * Debugger PIN: 135-991-133
+2025-03-24 23:15:13,305 - INFO - 127.0.0.1 - - [24/Mar/2025 23:15:13] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 23:15:13,307 - INFO - 127.0.0.1 - - [24/Mar/2025 23:15:13] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 23:15:13,624 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:15:13,624 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:15:13,870 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:15:13,870 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:15:14,582 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:15:14,582 - INFO - 127.0.0.1 - - [24/Mar/2025 23:15:14] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:15:14,854 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:15:14,854 - INFO - 127.0.0.1 - - [24/Mar/2025 23:15:14] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2025-03-24 23:15:16,233 - INFO - 127.0.0.1 - - [24/Mar/2025 23:15:16] "OPTIONS /encrypt HTTP/1.1" 200 -
+2025-03-24 23:15:16,235 - ERROR - \u274c Token verification failed: ("The function 'verifyToken' was not found in this ", "contract's abi.")
+2025-03-24 23:15:16,236 - ERROR - \u274c Failed to store token on blockchain: ("The function 'storeToken' was not found in this ", "contract's abi.")
+2025-03-24 23:15:16,790 - ERROR - \u274c File upload failed: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+2025-03-24 23:15:16,790 - INFO - 127.0.0.1 - - [24/Mar/2025 23:15:16] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -

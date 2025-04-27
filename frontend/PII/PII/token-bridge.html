@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Token Bridge</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <style>
+    .token-bridge {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: rgba(10, 14, 23, 0.8);
+      border-radius: 1rem;
+      border: 1px solid rgba(0, 114, 255, 0.2);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    .token-list {
+      margin-top: 2rem;
+      background: rgba(16, 24, 39, 0.8);
+      padding: 1rem;
+      border-radius: 0.5rem;
+      border: 1px solid rgba(0, 195, 255, 0.3);
+      font-family: 'Courier New', monospace;
+    }
+    
+    .token-item {
+      padding: 0.5rem;
+      margin-bottom: 0.5rem;
+      background: rgba(0, 114, 255, 0.1);
+      border-radius: 0.25rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .token-item button {
+      background: rgba(0, 195, 255, 0.2);
+      border: none;
+      color: white;
+      padding: 0.25rem 0.5rem;
+      border-radius: 0.25rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .token-item button:hover {
+      background: rgba(0, 195, 255, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="navbar">
+      <div class="logo">🔐 PII Authentication</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="generate.html">Generate Token</a>
+        <a href="validate.html">Validate Token</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="token-bridge">
+    <h1>Token Bridge</h1>
+    <p>This page helps you manage tokens for testing the validation process.</p>
+    
+    <div class="form-container" style="padding: 1rem 0;">
+      <h2>Add Token Manually</h2>
+      <form id="addTokenForm">
+        <input type="text" id="tokenInput" placeholder="Enter Token" required>
+        <button type="submit" class="btn primary">Add Token</button>
+      </form>
+    </div>
+    
+    <h2>Stored Tokens</h2>
+    <div id="tokenList" class="token-list">
+      <p>Loading tokens...</p>
+    </div>
+    
+    <div style="margin-top: 2rem;">
+      <button id="clearTokens" class="btn secondary">Clear All Tokens</button>
+    </div>
+  </main>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const addTokenForm = document.getElementById('addTokenForm');
+      const tokenInput = document.getElementById('tokenInput');
+      const tokenList = document.getElementById('tokenList');
+      const clearTokensButton = document.getElementById('clearTokens');
+      
+      // Function to refresh the token list
+      function refreshTokenList() {
+        const tokens = JSON.parse(localStorage.getItem('mockTokens') || '[]');
+        
+        if (tokens.length === 0) {
+          tokenList.innerHTML = '<p>No tokens stored yet. Generate a token or add one manually.</p>';
+          return;
+        }
+        
+        let html = '';
+        tokens.forEach(token => {
+          html += `
+            <div class="token-item">
+              <span>${token}</span>
+              <div>
+                <button class="validate-btn" data-token="${token}">Validate</button>
+                <button class="remove-btn" data-token="${token}">Remove</button>
+              </div>
+            </div>
+          `;
+        });
+        
+        tokenList.innerHTML = html;
+        
+        // Add event listeners to the validate buttons
+        document.querySelectorAll('.validate-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const token = btn.getAttribute('data-token');
+            window.location.href = `validate.html#${token}`;
+          });
+        });
+        
+        // Add event listeners to the remove buttons
+        document.querySelectorAll('.remove-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const token = btn.getAttribute('data-token');
+            const tokens = JSON.parse(localStorage.getItem('mockTokens') || '[]');
+            const newTokens = tokens.filter(t => t !== token);
+            localStorage.setItem('mockTokens', JSON.stringify(newTokens));
+            refreshTokenList();
+          });
+        });
+      }
+      
+      // Initial refresh
+      refreshTokenList();
+      
+      // Add token form submission
+      addTokenForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        const token = tokenInput.value.trim();
+        if (!token) return;
+        
+        const tokens = JSON.parse(localStorage.getItem('mockTokens') || '[]');
+        if (!tokens.includes(token)) {
+          tokens.push(token);
+          localStorage.setItem('mockTokens', JSON.stringify(tokens));
+          tokenInput.value = '';
+          refreshTokenList();
+        } else {
+          alert('This token already exists!');
+        }
+      });
+      
+      // Clear all tokens
+      clearTokensButton.addEventListener('click', () => {
+        if (confirm('Are you sure you want to clear all tokens?')) {
+          localStorage.setItem('mockTokens', JSON.stringify([]));
+          refreshTokenList();
+        }
+      });
+    });
+  </script>
+</body>
+</html>

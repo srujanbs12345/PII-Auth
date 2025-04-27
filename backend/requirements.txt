@@ -1,0 +1,5 @@
+Flask
+cryptography
+python-dotenv
+PyJWT
+web3
